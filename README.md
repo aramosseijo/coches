@@ -1,9 +1,6 @@
-# coches
-lectura de API https://deividfortuna.github.io/fipe/
-
 # Coches API
 
-Este proyecto es una API basada en **FastAPI** para consultar y filtrar información de vehículos a través de una API externa.
+Este proyecto es una API basada en **FastAPI** para consultar y filtrar información de vehículos a través de la API externa: https://deividfortuna.github.io/fipe/
 
 ## Funcionalidad
 
