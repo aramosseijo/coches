@@ -14,7 +14,8 @@ Para ejecutar todas las pruebas, utiliza:
 
 ```bash
 pytest
-
+```
 Para generar un reporte de cobertura:
+```bash
 pytest --cov=app --cov-report term-missing
 
