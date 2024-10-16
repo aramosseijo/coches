@@ -38,3 +38,9 @@ def test_get_vehiculos_filtro_invalido():
     data = response.json()
     assert "detail" in data
     assert data["detail"] == "Filtro no válido. Usa 'posterior', 'anterior' o 'igual'."
+
+def test_get_vehiculos_faltan_parametros():
+    # Simula una solicitud que no proporciona todos los parámetros requeridos
+    response = client.get("/vehiculos/?marca=Audi&year=2010")
+    assert response.status_code == 422  # Un código 422 indica que faltan parámetros
+
